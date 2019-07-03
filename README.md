@@ -1,4 +1,5 @@
-# 01-music-genre-classification
-Final project for the course Machine Learning: Basic Principles at Aalto University.
+# 01 Music Genre Classification
+
+*Final project for the course Machine Learning: Basic Principles at Aalto University.*
 
 Multi-class classification is one of the most popular problems that has been well-studied in machine learning area. In this report, we address a specific multiclass problem - the so-called **music genre classification**, of which the goal is to classify songs to their correct genre. To do so, we first visualize a given dataset of over 4000 songs from 10 genres and point out its potential problems, including imbalance and redundancy. We then examine several supervised machine learning algorithms and measure their performance accordingly, in which the best performing model is picked and improved. In overall, the best model for this problem is found to be an optimized distributed gradient boosting library named **Extreme Gradient Boosting**, and its behaviours with different parameters are examined in order to deal with dataset’s problems. Finally, we discuss some implications of this model and participate in Kaggle Competition with the tuned model.
